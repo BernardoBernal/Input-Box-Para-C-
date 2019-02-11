@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Reflection;
 using System.Windows.Forms;
 
 namespace InputBox
@@ -13,18 +11,24 @@ namespace InputBox
             ComboBox
         }
 
-        private String valor = "";
         private Control comboBox, textBox;
         private Tipo tipo;
-        public String Valor {
-            get => valor; 
-        }
+        public String Valor { get; private set; } = "";
 
         public InputBox() {
             InicializaComponentes();
         }
         
-        
+        /// <summary>
+        /// Muestra el Input Box
+        /// </summary>
+        /// <param name="mensaje">Mensaje que se desea mostrar</param>
+        /// <param name="tituloVentana">Titulo del Input</param>
+        /// <param name="botones">Botones que se desean agregar</param>
+        /// <param name="icono">Icono que se mostrara</param>
+        /// <param name="tipo">Tipo de Input Box: ComboBox, TextBox</param>
+        /// <param name="items">Valores del ComboBox</param>
+        /// <returns></returns>
         public DialogResult ShowDialog(string mensaje, string tituloVentana, MessageBoxButtons botones, MessageBoxIcon icono, Tipo tipo, String[] items) {
             Text = tituloVentana;
             Controls.Add(generaPanel(mensaje, icono, tipo, items));
@@ -90,16 +94,16 @@ namespace InputBox
             switch (icono)
             {
                 case MessageBoxIcon.Information:
-                    imagen.Image = (Image)global::InputBox.Properties.Resources.Information;
+                    imagen.Image = (Image)Properties.Resources.Information;
                     break;
                 case MessageBoxIcon.Error:
-                    imagen.Image = (Image)global::InputBox.Properties.Resources.Error;
+                    imagen.Image = (Image)Properties.Resources.Error;
                     break;
                 case MessageBoxIcon.Exclamation:
-                    imagen.Image = (Image)global::InputBox.Properties.Resources.Exclamation;
+                    imagen.Image = (Image)Properties.Resources.Exclamation;
                     break;
                 case MessageBoxIcon.Question:
-                    imagen.Image = (Image)global::InputBox.Properties.Resources.Question;
+                    imagen.Image = (Image)Properties.Resources.Question;
                     break;
                 case MessageBoxIcon.None:
                     return null;
@@ -199,11 +203,11 @@ namespace InputBox
         {
             if (tipo == Tipo.ComboBox)
             {
-                valor = comboBox.Text;
+                Valor = comboBox.Text;
             }
             else
             {
-                valor = textBox.Text;
+                Valor = textBox.Text;
             }
             Close();
         }
