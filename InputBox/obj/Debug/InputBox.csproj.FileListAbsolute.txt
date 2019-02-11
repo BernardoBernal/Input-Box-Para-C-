@@ -1,0 +1,10 @@
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.csprojAssemblyReference.cache
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.Properties.Resources.resources
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.csproj.GenerateResource.cache
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.csproj.CoreCompileInputs.cache
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\bin\Debug\InputBox.exe.config
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\bin\Debug\InputBox.exe
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\bin\Debug\InputBox.pdb
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.exe
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.pdb
+C:\Users\berna\Documents\Input-Box-Para-C-\InputBox\obj\Debug\InputBox.Form1.resources

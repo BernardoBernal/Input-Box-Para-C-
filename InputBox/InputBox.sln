@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputBox", "InputBox.csproj", "{F4E8B7F7-043E-4886-9CB5-96E741CB035F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMBD", "..\..\SMBD\SMBD\SMBD.csproj", "{2A04566A-7AF5-4AA6-9798-2789D3E7926C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E8B7F7-043E-4886-9CB5-96E741CB035F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E8B7F7-043E-4886-9CB5-96E741CB035F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E8B7F7-043E-4886-9CB5-96E741CB035F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E8B7F7-043E-4886-9CB5-96E741CB035F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04566A-7AF5-4AA6-9798-2789D3E7926C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04566A-7AF5-4AA6-9798-2789D3E7926C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04566A-7AF5-4AA6-9798-2789D3E7926C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04566A-7AF5-4AA6-9798-2789D3E7926C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3282BDA4-92B3-42DD-B4CA-0C038F1ADD7C}
+	EndGlobalSection
+EndGlobal
